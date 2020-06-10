@@ -5,14 +5,20 @@ import App from './App';
 import Hello from './hello';
 
 ReactDOM.render(
+
+
      <div>
     <App name="index.js" />
-    
+   
     <Hello   a="Daniyal"  b="React"/>
-    </div>
-    ,
 
-  document.getElementById('root')
+    {/* <App> <p>Hi! i am doing my {c}</p></App> */}
+    </div>
+  
+
+
+
+  ,document.getElementById('root')
 );
 
 

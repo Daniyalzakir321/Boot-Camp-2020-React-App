@@ -1,11 +1,13 @@
 import React from 'react';
-import './App.css';
+import './index.js'
+
+
 
 function App(props) {
   return (
 
     <div>
-      <p>Getting Data from  {props.name} </p>
+      <p c="Assignment-3"> Getting Data from  {props.name} </p>
     </div>
 
   );
